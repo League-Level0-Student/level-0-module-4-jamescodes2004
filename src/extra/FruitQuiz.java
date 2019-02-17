@@ -16,9 +16,9 @@ public class FruitQuiz extends KeyAdapter {
 	void makeQuestions() {
 		question1 = new JLabel("<html>Which is not a real fruit? <br> A: Dragon Fruit <br> B: Durian <br> C: Crazyberry</html>");
 		// 11. Make another question called "question2".  Use question1 above as a guide.
-	}
 
-	@Override
+	question2 = new JLabel("<html>Which of these animals is native to Hawaii? <br> A: Veiled Chameleon <br> B: Cane Toad</html> C: Apple Snail <br>");
+	}@Override
 	public void keyPressed(KeyEvent arg0) {
 		int keyCode = arg0.getKeyCode();
 		// 1. Print out the key code variable
